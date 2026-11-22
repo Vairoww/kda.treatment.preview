@@ -28,3 +28,9 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Application rules
+- Keep shared navigation and footer in SiteShell around the root Outlet so every content page has consistent contact links.
+- Keep estimator data, calculations, and typed contact search parsing in the browser-safe kda module so both estimate views and handoffs use the same rules.
+- This is a frontend concept: forms prepare explicit SMS handoffs and never imply server submission or a confirmed booking.
+- Keep media in CDN asset pointers and all visual tokens in styles.css so generated images and theming remain consistent.
