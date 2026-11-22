@@ -38,5 +38,5 @@ export function validateContactSearch(search: Record<string,unknown>):ContactSea
  return result;
 }
 export function pageHead(title:string,description:string) {
- return { meta:[{ title:`${title} | KDA Treatment Inc. (Concept Preview)` },{name:'description',content:description},{property:'og:title',content:`${title} | KDA Treatment Inc. (Concept Preview)`},{property:'og:description',content:description},{property:'og:image',content:'/images/studio-hero.png'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary_large_image'}] };
+ return { meta:[{ title:`${title} | KDA Treatment Inc. (Concept Preview)` },{name:'description',content:description},{property:'og:title',content:`${title} | KDA Treatment Inc. (Concept Preview)`},{property:'og:description',content:description},{property:'og:image',content:'/images/kda-hero-e46.jpg'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary_large_image'}] };
 }
